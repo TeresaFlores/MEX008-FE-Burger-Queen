@@ -1,6 +1,6 @@
 import React from 'react';
 import TablaDeOrdenes from '../components/TablaDeOrdenes.js';
-import '../styles/ListaDeCocina.css';
+import '../styles/ListaDeOrdenes.css';
 import { Link } from 'react-router-dom';
 import next from '../img/next.png';
 
@@ -26,23 +26,52 @@ class ListaDeOrdenes extends React.Component {
                         <h2>ORDENES</h2>
                 </div>
                 <div className="conteinerOrden"> 
-                        <div className="ingredientes">
-                        
-                            <div className="tabla">
-                                <div className="comensal">
-                                    <TablaDeOrdenes nameOrden="Fabiola"/>
-                                </div>
-                                <div className="orden">
-                                    <TablaDeOrdenes cantidad="1"/>
-                                    <TablaDeOrdenes orden="Gula, Soberbia"/>
-                                </div>
-                            
+                    <div className="comensal_1">
+                        <TablaDeOrdenes nameOrden="Fabiola"/>
+                  
+                        <table className="Ordenes_Tabla">
+                                <tbody>
+                                    <tr>
+                                    <td><strong>Cantidad</strong></td>
+                                    <td><strong>Orden</strong></td>
+                                    <td><strong>Tiempo</strong></td>
+                                    </tr>
 
-                                <div className="tiempo">
-                                    <TablaDeOrdenes time="7 min"/>  
-                                </div>
-                             </div>
-                         </div>
+                                    <tr>
+                                    <td>1 pz</td>
+                                    <td>Gula,Soberbia</td>
+                                    <td>7 min</td>
+                                    </tr>
+
+                                </tbody>
+    
+                        </table>  
+                               
+                      </div>      
+                    <br/>
+
+                       <div className="comensal_2">
+                            <TablaDeOrdenes nameOrden="Sofia"/>
+                  
+                            <table className="Ordenes_Tabla">
+                                    <tbody>
+                                        <tr>
+                                        <td><strong>Cantidad</strong></td>
+                                        <td><strong>Orden</strong></td>
+                                        <td><strong>Tiempo</strong></td>
+                                        </tr>
+
+                                    <tr>
+                                    <td>1 pz</td>
+                                    <td>Malicia,sin queso</td>
+                                    <td>5 min</td>
+                                    </tr> 
+
+                                    </tbody>
+        
+                            </table>  
+                               
+                      </div>                 
 
                 </div>           
                 <div className="Boton-siguiente">

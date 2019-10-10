@@ -22,16 +22,14 @@ class ListaIngredientes extends React.Component {
         return (
             <div className="Lista_Ingredientes">
                    
-                        <div id="titulo">
+                    <div id="titulo">
                             <h2>Mise in Place</h2>
-                        </div>
+                    </div>
                     <div className="textoCocina">
-
                         {
                             this.state.ingredientes.map((item,index) => <Textips key={index} id={`element${index}`} texto={item}/>)
                         }
                     </div>
-
                     <div className="Boton-siguiente">
                         <Link className="boton" to="/OrdenCocina">
                             <img className="next" src={next} alt="Boton siguiente"/>
