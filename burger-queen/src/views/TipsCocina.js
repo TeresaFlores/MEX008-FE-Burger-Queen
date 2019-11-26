@@ -22,12 +22,15 @@ class  TipsCocina extends React.Component {
     
                 <div className="Tips_Cocina">
                     
-                        <div id="titulo"> 
+                    <div id="titulo"> 
                                 <h2>Alistémonos D'Monium</h2>
-                        </div>  
+                    </div>  
                     <div className="textoCocina">     
                         {
-                            this.state.tips.map((item, index) => <Textips key={index} id={`element${index}`} texto={item}/>)
+                            this.state.tips.map((item, index) => 
+                            <Textips key={index} 
+                            id={`element${index}`} 
+                            texto={item}/>)
                         }  
                     </div>
 

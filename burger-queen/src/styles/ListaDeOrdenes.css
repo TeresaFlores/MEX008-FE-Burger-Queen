@@ -1,25 +1,13 @@
 @media screen and (min-width:320px){
-    .Orden_Cocina {
+    .Lista_cocina {
       padding: 10px;
       max-width: 318px;
       width: 50%;
     }
-    .Titulo_orden{
-      font-size: 150%;
-    }
-    .Tabla{
-      font-size: 70%;
-    }
-    .next_orden{
-      width: 35%;
-      height: 35%;
-      padding: 10px;
-    }
-   
   }
   
   @media screen and (min-width:480px){
-    .Orden_Cocina {
+    .Lista_cocina {
       padding: 1em;
       height: 100%;
       width: 100%;
@@ -27,7 +15,7 @@
   }
   
   @media screen and (min-width:768px){
-    .Orden_Cocina {
+    .Lista_cocina {
       padding: 2em;
       height: 100%;
       width: 100%;
@@ -35,26 +23,13 @@
   }
   
   @media screen and (min-width:1024px){
-    .Orden_Cocina {
+    .Lista_cocina {
       padding: 2em;
       height: 100%;
       width: 100%;
     }
-    .next_orden{
-      width: 50px;
-      height: 50px;
-      padding: 5px;
-      margin-top: 10%;
-      
-    }
-    .Titulo_orden{
-      font-size: 200%;
-    }
-    .Tabla{
-      font-size: 120%;
-    }
   }
-.Orden_Cocina{
+.Lista_cocina{
         width: 100%;
         max-width: 600px;
         padding: 45px;
@@ -70,36 +45,40 @@
         overflow: hidden;
         justify-content: center;
 }
-.next_orden{
-  width: 20%;
-  height: 20%;
-  max-width: 25%;
-  max-height: 25%;
-  padding: 10px;
-  margin: auto;
-  display:flex; 
-  margin-top: 10%;
 
-}
-
-.tablaCocina{
+.conteinerOrden{
     margin: auto;
-    padding: 20px;
-   
+    padding: 10px;
+    width: 100%;
+    height: auto;
 }
-
-.Tabla{
-    
-    width: 80%;
-    height: 40%;
-    justify-content:flex-start;  
-    flex-direction: column;
-    text-align: center;
-    max-width: 500px;
+.comensal_1{
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #D1F366;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 20px;
+}
+.comensal_2{
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  background-color:#85ECF3;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 20px;
+}
+.next{
+    width: 80px;
+    height: 80px;
     padding: 10px;
     margin: auto;
-    height: 150%;
-    justify-content: space-between;
-    border-bottom: 3px solid #848280;
-    
+    display:flex;
+   margin-top: 40px;
 }

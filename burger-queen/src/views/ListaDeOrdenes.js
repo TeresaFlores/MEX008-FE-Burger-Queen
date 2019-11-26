@@ -1,6 +1,6 @@
 import React from 'react';
 import TablaDeOrdenes from '../components/TablaDeOrdenes.js';
-import '../styles/ListaDeCocina.css';
+import '../styles/ListaDeOrdenes.css';
 import { Link } from 'react-router-dom';
 import next from '../img/next.png';
 

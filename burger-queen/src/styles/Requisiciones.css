@@ -1,15 +1,49 @@
- 
+@media screen and (min-width:320px){
+    .requisiciones {
+      padding: 10px;
+      max-width: 318px;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width:480px){
+    .requisiciones{
+      padding: 1em;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width:768px){
+    .requisiciones {
+      padding: 2em;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width:1024px){
+    .requisiciones {
+      padding: 2em;
+      height: 100%;
+      width: 100%;
+    }
+  } 
+
  .Requisiciones_Tabla{
-     /* border: solid black; */
-     border-radius: 8px 8px 8px 8px;
+     width: 100%;
+     height: auto;
+     border: 3px solid  #848280 ;
+     border-radius: 10px 10px 10px 10px;
+     
  }
  .requisiciones{
-  width: 150%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 600px;
   padding: 45px;
   margin: auto;
   margin-top: 4%;
-  height: 150%;
+  height: 100%;
   text-align: center;
   background: #ffffff;
   -webkit-box-shadow: 0px 6px 79px 7px rgba(0,0,0,0.75);

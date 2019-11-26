@@ -30,7 +30,7 @@ class OrdenCocina extends React.Component {
                 
                     <div className="tablaCocina">
                         {/* <h1>{this.state.name}</h1> */}
-                        <h1>Orden de: {this.props.name}</h1>
+                        <h1 className="Titulo_orden">Orden de: {this.props.name}</h1>
 
 
                         <table className="Tabla">
@@ -67,7 +67,7 @@ class OrdenCocina extends React.Component {
 
                     <div className="Boton-siguiente">
                         <Link className="boton" to="/ListaDeOrdenes">
-                            <img className="next" src={next} alt="Boton siguiente"/>
+                            <img className="next_orden" src={next} alt="Boton siguiente"/>
                         </Link>
                     </div>
 
