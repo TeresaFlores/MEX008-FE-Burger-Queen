@@ -1,8 +1,7 @@
 import React from 'react';
-import Notificacion from '../components/Notificacion';
 import Buttons from '../components/Buttons';
 import "../styles/EnvioOrden.css";
-import tick from '../img/tick.png';
+
 import { Link } from 'react-router-dom';
 
 class EnvioOrden extends React.Component {
@@ -21,12 +20,10 @@ class EnvioOrden extends React.Component {
             
             <div>
             <Link to="/Sidebar">
-
-            <Buttons text = "Continuar con la orden" />
-
+                <Buttons text = "Continuar con la orden" />
             </Link>
             <Link to="/Home">
-            <Buttons text = "Menu principal" />
+                <Buttons text = "Menu principal" />
             </Link>
             </div>
         </div>
