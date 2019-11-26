@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.447c342b.chunk.css",
+    "main.js": "./static/js/main.84f6b789.chunk.js",
+    "main.js.map": "./static/js/main.84f6b789.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.472a9bfa.js",
+    "runtime~main.js.map": "./static/js/runtime~main.472a9bfa.js.map",
+    "static/css/2.4a1d8450.chunk.css": "./static/css/2.4a1d8450.chunk.css",
+    "static/js/2.95723c84.chunk.js": "./static/js/2.95723c84.chunk.js",
+    "static/js/2.95723c84.chunk.js.map": "./static/js/2.95723c84.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.1b475c6089032a26350a6c5f0c66c0c0.js": "./precache-manifest.1b475c6089032a26350a6c5f0c66c0c0.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.4a1d8450.chunk.css.map": "./static/css/2.4a1d8450.chunk.css.map",
+    "static/css/main.447c342b.chunk.css.map": "./static/css/main.447c342b.chunk.css.map",
+    "static/media/hot-dog.png": "./static/media/hot-dog.3997785d.png",
+    "static/media/lemonade.png": "./static/media/lemonade.25b4db2a.png",
+    "static/media/logodemonium.png": "./static/media/logodemonium.0c3813aa.png",
+    "static/media/next.png": "./static/media/next.a5d80e4f.png",
+    "static/media/offer.png": "./static/media/offer.0a82d1f9.png",
+    "static/media/pizzaicon.png": "./static/media/pizzaicon.5906a54d.png",
+    "static/media/salad.png": "./static/media/salad.aa5b3e03.png"
+  }
+}
