@@ -21,7 +21,7 @@ import ListaDeOrdenes from '../views/ListaDeOrdenes';
 
 function App() {
   return (
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <header>
         <IfOffLine>offLine</IfOffLine>
         </header>     
